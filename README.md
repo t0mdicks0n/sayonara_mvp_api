@@ -18,3 +18,7 @@ Steps:
 `curl --request POST --url 'https://us-central1-sayonara-1337.cloudfunctions.net/getActivities' -d "username=youremail@gmail.com&password=yourpassword"`
 
 `curl --request POST --url 'https://us-central1-sayonara-1337.cloudfunctions.net/getActivity' -d "username=youremail@gmail.com&password=yourpassword&activityid=8743974762"`
+
+#### Docs
+This library is being used: https://github.com/Pythe1337N/garmin-connect
+I first tried using this library but it has issues with Cloudflare which Garmin has in front of their logged in services: https://github.com/cyberjunky/python-garminconnect
